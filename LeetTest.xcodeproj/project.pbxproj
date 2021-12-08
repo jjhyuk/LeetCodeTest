@@ -12,6 +12,7 @@
 		94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C28274E766200FBB483 /* 13.RomantoInteger.swift */; };
 		94857C2B274E7DAE00FBB483 /* 14.LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C2A274E7DAE00FBB483 /* 14.LongestCommonPrefix.swift */; };
 		94857C2D274E85ED00FBB483 /* 20.ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C2C274E85ED00FBB483 /* 20.ValidParentheses.swift */; };
+		94E6DC732760E2620095D52E /* 21.MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		94857C2C274E85ED00FBB483 /* 20.ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.ValidParentheses.swift; sourceTree = "<group>"; };
 		94CF9E002760DD2C0018F2F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		94CF9E012760DDCD0018F2F1 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				94857C28274E766200FBB483 /* 13.RomantoInteger.swift */,
 				94857C2A274E7DAE00FBB483 /* 14.LongestCommonPrefix.swift */,
 				94857C2C274E85ED00FBB483 /* 20.ValidParentheses.swift */,
+				94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */,
 				94857C2B274E7DAE00FBB483 /* 14.LongestCommonPrefix.swift in Sources */,
 				94857C26274E737A00FBB483 /* 9.PalindromeNumber.swift in Sources */,
+				94E6DC732760E2620095D52E /* 21.MergeTwoSortedLists.swift in Sources */,
 				94857C1E274E735B00FBB483 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
