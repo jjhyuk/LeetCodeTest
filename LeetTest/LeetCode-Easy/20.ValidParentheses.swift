@@ -9,57 +9,52 @@ import Foundation
 
 class ValidParentheses {
   func isValid(_ s: String) -> Bool {
-    
-    if s.count < 2 {
-      return false
-    }
-    var result = false
-    var a = s.map { String($0) }
-    var b = Array<String>()
-    for str in a {
-      if b.isEmpty {
-        b.append("\(str)")
-      }
-
-      if !isAdd("\(str)") {
-        if compare(b.last!, s2: str) {
-         result = true
-          b.popLast()
-          b.popLast()
-        } else {
-          result = false
-          break
-        }
+    var tmpArray = Array<String>()
+    s.map { c in
+      String(c)
+    }.forEach { s in
+      if isLeft(s) {
+        tmpArray.append(s)
       } else {
-        b.append("\(str)")
-        result = true
+        if let c = tmpArray.last {
+          if s == reveresString(c) {
+            tmpArray.removeLast()
+          } else {
+            tmpArray.append(s)
+          }
+        } else {
+          tmpArray.append(s)
+        }
       }
     }
-    
-    return b.isEmpty ? result : false
+  
+    return tmpArray.isEmpty
   }
   
-  func isAdd(_ s: String) -> Bool {
-    if s == "{" || s == "(" || s == "[" {
+  func isLeft(_ character: String) -> Bool {
+    switch character {
+    case "(":
       return true
-    } else {
+    case "{":
+      return true
+    case "[":
+      return true
+    default:
       return false
     }
   }
   
-  func compare(_ s1: String, s2: String) -> Bool {
-    
-    if s1 == "{" && s2 == "}" {
-      return true
-    }
-    else if s1 == "(" && s2 == ")" {
-      return true
-    }
-    else if s1 == "[" && s2 == "]" {
-      return true
-    }
-    else {
-      return false
+  func reveresString(_ character: String) -> String {
+    switch character {
+    case "(":
+      return ")"
+    case "{":
+      return "}"
+    case "[":
+      return "]"
+    default:
+      return ""
     }
   }
+  
 }

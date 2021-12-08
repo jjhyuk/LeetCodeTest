@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(ValidParentheses().isValid("()"))
+print(ValidParentheses().isValid("{[]}"))
