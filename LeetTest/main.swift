@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(ImplementstrStr().strStr("a", "b"))
+print(SearchInsertPosition().searchInsert([1,3,5,6], 5))
 
