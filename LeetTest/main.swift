@@ -7,7 +7,5 @@
 
 import Foundation
 
-var array = [0,1,2,2,3,0,4,2]
-var val = 2
-print(RemoveElement().removeElement(&array, val))
+print(ImplementstrStr().strStr("a", "b"))
 

@@ -15,6 +15,7 @@
 		94E6DC732760E2620095D52E /* 21.MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */; };
 		94E6DC752760EE010095D52E /* 26.RemoveDuplicatesfromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC742760EE010095D52E /* 26.RemoveDuplicatesfromSortedArray.swift */; };
 		94E6DC772760F1180095D52E /* 27.RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC762760F1180095D52E /* 27.RemoveElement.swift */; };
+		94E6DC792760F3020095D52E /* 28.ImplementstrStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		94E6DC742760EE010095D52E /* 26.RemoveDuplicatesfromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.RemoveDuplicatesfromSortedArray.swift; sourceTree = "<group>"; };
 		94E6DC762760F1180095D52E /* 27.RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.RemoveElement.swift; sourceTree = "<group>"; };
+		94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.ImplementstrStr().swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				94E6DC722760E2620095D52E /* 21.MergeTwoSortedLists.swift */,
 				94E6DC742760EE010095D52E /* 26.RemoveDuplicatesfromSortedArray.swift */,
 				94E6DC762760F1180095D52E /* 27.RemoveElement.swift */,
+				94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E6DC792760F3020095D52E /* 28.ImplementstrStr().swift in Sources */,
 				94E6DC772760F1180095D52E /* 27.RemoveElement.swift in Sources */,
 				94857C2D274E85ED00FBB483 /* 20.ValidParentheses.swift in Sources */,
 				94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */,
