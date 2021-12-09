@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(LengthofLastWord().lengthOfLastWord("luffy is still joyboy"))
+print(PlusOne().plusOne([4,3,2,1]))
 
