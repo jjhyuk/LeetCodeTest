@@ -17,6 +17,7 @@
 		94E6DC772760F1180095D52E /* 27.RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC762760F1180095D52E /* 27.RemoveElement.swift */; };
 		94E6DC792760F3020095D52E /* 28.ImplementstrStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */; };
 		94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC7A276238DB0095D52E /* 35.SearchInsertPosition.swift */; };
+		94E6DC7D27623BF90095D52E /* 53.MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		94E6DC762760F1180095D52E /* 27.RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.RemoveElement.swift; sourceTree = "<group>"; };
 		94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.ImplementstrStr().swift"; sourceTree = "<group>"; };
 		94E6DC7A276238DB0095D52E /* 35.SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35.SearchInsertPosition.swift; sourceTree = "<group>"; };
+		94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53.MaximumSubarray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				94E6DC762760F1180095D52E /* 27.RemoveElement.swift */,
 				94E6DC782760F3020095D52E /* 28.ImplementstrStr().swift */,
 				94E6DC7A276238DB0095D52E /* 35.SearchInsertPosition.swift */,
+				94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				94E6DC792760F3020095D52E /* 28.ImplementstrStr().swift in Sources */,
 				94E6DC772760F1180095D52E /* 27.RemoveElement.swift in Sources */,
+				94E6DC7D27623BF90095D52E /* 53.MaximumSubarray.swift in Sources */,
 				94857C2D274E85ED00FBB483 /* 20.ValidParentheses.swift in Sources */,
 				94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */,
 				94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */,

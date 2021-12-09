@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(SearchInsertPosition().searchInsert([1,3,5,6], 5))
+print(MaximumSubarray().maxSubArray([5,4,-1,7,8]))
 
