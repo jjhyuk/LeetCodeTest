@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(MaximumSubarray().maxSubArray([5,4,-1,7,8]))
+print(LengthofLastWord().lengthOfLastWord("luffy is still joyboy"))
 
