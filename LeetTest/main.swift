@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(AddBinary().addBinary("100", "110010"))
+print(Sqrt().mySqrt(4))
 

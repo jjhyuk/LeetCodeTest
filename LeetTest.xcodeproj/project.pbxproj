@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */; };
 		94857C1E274E735B00FBB483 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C1D274E735B00FBB483 /* main.swift */; };
 		94857C26274E737A00FBB483 /* 9.PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C25274E737A00FBB483 /* 9.PalindromeNumber.swift */; };
 		94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C28274E766200FBB483 /* 13.RomantoInteger.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.Sqrt(x).swift"; sourceTree = "<group>"; };
 		94857C1A274E735B00FBB483 /* LeetTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94857C1D274E735B00FBB483 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94857C25274E737A00FBB483 /* 9.PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9.PalindromeNumber.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				94E6DC7E27623E330095D52E /* 58.LengthofLastWord.swift */,
 				94E6DC8027623FB80095D52E /* 66.PlusOne.swift */,
 				94E6DC8227637E1E0095D52E /* 67.AddBinary.swift */,
+				947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				94E6DC7D27623BF90095D52E /* 53.MaximumSubarray.swift in Sources */,
 				94857C2D274E85ED00FBB483 /* 20.ValidParentheses.swift in Sources */,
 				94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */,
+				947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */,
 				94E6DC8127623FB80095D52E /* 66.PlusOne.swift in Sources */,
 				94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */,
 				94E6DC7F27623E330095D52E /* 58.LengthofLastWord.swift in Sources */,
