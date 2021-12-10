@@ -20,6 +20,7 @@
 		94E6DC7D27623BF90095D52E /* 53.MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */; };
 		94E6DC7F27623E330095D52E /* 58.LengthofLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC7E27623E330095D52E /* 58.LengthofLastWord.swift */; };
 		94E6DC8127623FB80095D52E /* 66.PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC8027623FB80095D52E /* 66.PlusOne.swift */; };
+		94E6DC8327637E1E0095D52E /* 67.AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6DC8227637E1E0095D52E /* 67.AddBinary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53.MaximumSubarray.swift; sourceTree = "<group>"; };
 		94E6DC7E27623E330095D52E /* 58.LengthofLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 58.LengthofLastWord.swift; sourceTree = "<group>"; };
 		94E6DC8027623FB80095D52E /* 66.PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 66.PlusOne.swift; sourceTree = "<group>"; };
+		94E6DC8227637E1E0095D52E /* 67.AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 67.AddBinary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				94E6DC7C27623BF90095D52E /* 53.MaximumSubarray.swift */,
 				94E6DC7E27623E330095D52E /* 58.LengthofLastWord.swift */,
 				94E6DC8027623FB80095D52E /* 66.PlusOne.swift */,
+				94E6DC8227637E1E0095D52E /* 67.AddBinary.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				94E6DC752760EE010095D52E /* 26.RemoveDuplicatesfromSortedArray.swift in Sources */,
 				94857C26274E737A00FBB483 /* 9.PalindromeNumber.swift in Sources */,
 				94E6DC732760E2620095D52E /* 21.MergeTwoSortedLists.swift in Sources */,
+				94E6DC8327637E1E0095D52E /* 67.AddBinary.swift in Sources */,
 				94857C1E274E735B00FBB483 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

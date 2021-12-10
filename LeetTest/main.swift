@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(PlusOne().plusOne([4,3,2,1]))
+print(AddBinary().addBinary("100", "110010"))
 
