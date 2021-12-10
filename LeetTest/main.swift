@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(Sqrt().mySqrt(4))
+print(ClimbingStairs().climbStairs(40))
 
