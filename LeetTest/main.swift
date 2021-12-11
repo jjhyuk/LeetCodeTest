@@ -7,5 +7,6 @@
 
 import Foundation
 
-print(ClimbingStairs().climbStairs(40))
+var arr = [-1,0,0,3,3,3,0,0,0]
+print(MergeSortedArray().merge(&arr, 6, [1,2,2], 3))
 
