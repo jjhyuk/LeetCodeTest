@@ -7,6 +7,9 @@
 
 import Foundation
 
-var arr = [-1,0,0,3,3,3,0,0,0]
-print(MergeSortedArray().merge(&arr, 6, [1,2,2], 3))
+let third = TreeNode(3, nil, nil)
+let second = TreeNode(2, third, nil)
+let first = TreeNode(1, nil, second)
+
+print(BinaryTreeInorderTraversal().inorderTraversal(first))
 
