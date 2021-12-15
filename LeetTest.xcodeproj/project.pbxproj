@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		94043B3B2764E0EF004EE672 /* 88.MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94043B3A2764E0EF004EE672 /* 88.MergeSortedArray.swift */; };
 		94043B3D276A1E2C004EE672 /* 94.BinaryTreeInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94043B3C276A1E2C004EE672 /* 94.BinaryTreeInorderTraversal.swift */; };
+		94043B3F276A2C73004EE672 /* 101.SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94043B3E276A2C73004EE672 /* 101.SymmetricTree.swift */; };
 		947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */; };
 		947E2DCA27638F2400A40428 /* 70.ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */; };
 		94857C1E274E735B00FBB483 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94857C1D274E735B00FBB483 /* main.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		94043B3A2764E0EF004EE672 /* 88.MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 88.MergeSortedArray.swift; sourceTree = "<group>"; };
 		94043B3C276A1E2C004EE672 /* 94.BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 94.BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
+		94043B3E276A2C73004EE672 /* 101.SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 101.SymmetricTree.swift; sourceTree = "<group>"; };
 		947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.Sqrt(x).swift"; sourceTree = "<group>"; };
 		947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.ClimbingStairs.swift; sourceTree = "<group>"; };
 		94857C1A274E735B00FBB483 /* LeetTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */,
 				94043B3A2764E0EF004EE672 /* 88.MergeSortedArray.swift */,
 				94043B3C276A1E2C004EE672 /* 94.BinaryTreeInorderTraversal.swift */,
+				94043B3E276A2C73004EE672 /* 101.SymmetricTree.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				94043B3B2764E0EF004EE672 /* 88.MergeSortedArray.swift in Sources */,
 				94857C2D274E85ED00FBB483 /* 20.ValidParentheses.swift in Sources */,
 				94857C29274E766200FBB483 /* 13.RomantoInteger.swift in Sources */,
+				94043B3F276A2C73004EE672 /* 101.SymmetricTree.swift in Sources */,
 				947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */,
 				94E6DC8127623FB80095D52E /* 66.PlusOne.swift in Sources */,
 				94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */,

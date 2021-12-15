@@ -7,9 +7,12 @@
 
 import Foundation
 
-let third = TreeNode(3, nil, nil)
-let second = TreeNode(2, third, nil)
-let first = TreeNode(1, nil, second)
+let Rthird = TreeNode(2, nil, nil)
+let Rsecond = TreeNode(2, Rthird, nil)
 
-print(BinaryTreeInorderTraversal().inorderTraversal(first))
+let Lthird = TreeNode(2, nil, nil)
+let Lsecond = TreeNode(2, Lthird, nil)
+let first = TreeNode(1, Lsecond, Rsecond)
+
+print(SymmetricTree().isSymmetric(first))
 
