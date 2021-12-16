@@ -14,5 +14,5 @@ let Lthird = TreeNode(2, nil, nil)
 let Lsecond = TreeNode(2, Lthird, nil)
 let first = TreeNode(1, Lsecond, Rsecond)
 
-print(MaximumDepthofBinaryTree().maxDepth(first))
+print(PascalsTriangle().generate(5))
 
