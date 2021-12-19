@@ -14,5 +14,5 @@ import Foundation
 //let Lsecond = TreeNode(2, Lthird, nil)
 //let first = TreeNode(1, Lsecond, Rsecond)
 
-print(LinkedListCycle().hasCycle(nil))
+print(MajorityElement().majorityElement([6,6,6,7,7]))
 
