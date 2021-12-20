@@ -14,5 +14,9 @@ import Foundation
 //let Lsecond = TreeNode(2, Lthird, nil)
 //let first = TreeNode(1, Lsecond, Rsecond)
 
-print(ExcelSheetColumnNumber().titleToNumber("AAAA"))
+let a = ListNode(1)
+let b = ListNode(2)
+a.next = b
+
+print(ReverseLinkedList().reverseList(a))
 
