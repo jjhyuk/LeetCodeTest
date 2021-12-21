@@ -24,6 +24,5 @@ b.next = c
 c.next = d
 d.next = e
 
-var result = [12, 1]
-print(MoveZeroes().moveZeroes(&result))
+print(PowerofThree().isPowerOfThree(1))
 
