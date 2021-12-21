@@ -24,5 +24,5 @@ b.next = c
 c.next = d
 d.next = e
 
-print(DeleteNodeinaLinkedList().deleteNode(a))
+print(ValidAnagram().isAnagram("car", "akr"))
 
