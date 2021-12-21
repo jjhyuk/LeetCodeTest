@@ -24,5 +24,6 @@ b.next = c
 c.next = d
 d.next = e
 
-print(MissingNumber().missingNumber([0,1]))
+var result = [12, 1]
+print(MoveZeroes().moveZeroes(&result))
 
