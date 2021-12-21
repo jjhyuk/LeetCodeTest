@@ -26,6 +26,7 @@
 		944D211D2772106900D558F2 /* 268.MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D211C2772106900D558F2 /* 268.MissingNumber.swift */; };
 		944D211F2772149D00D558F2 /* 283.MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D211E2772149D00D558F2 /* 283.MoveZeroes.swift */; };
 		944D212127721C4E00D558F2 /* 326.PowerofThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D212027721C4E00D558F2 /* 326.PowerofThree.swift */; };
+		944D212327721F3800D558F2 /* 344.ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D212227721F3800D558F2 /* 344.ReverseString.swift */; };
 		947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */; };
 		947E2DCA27638F2400A40428 /* 70.ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */; };
 		9481F96F276E24BE000EF084 /* 125.ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */; };
@@ -77,6 +78,7 @@
 		944D211C2772106900D558F2 /* 268.MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 268.MissingNumber.swift; sourceTree = "<group>"; };
 		944D211E2772149D00D558F2 /* 283.MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 283.MoveZeroes.swift; sourceTree = "<group>"; };
 		944D212027721C4E00D558F2 /* 326.PowerofThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 326.PowerofThree.swift; sourceTree = "<group>"; };
+		944D212227721F3800D558F2 /* 344.ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 344.ReverseString.swift; sourceTree = "<group>"; };
 		947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.Sqrt(x).swift"; sourceTree = "<group>"; };
 		947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.ClimbingStairs.swift; sourceTree = "<group>"; };
 		9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 125.ValidPalindrome.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				944D211C2772106900D558F2 /* 268.MissingNumber.swift */,
 				944D211E2772149D00D558F2 /* 283.MoveZeroes.swift */,
 				944D212027721C4E00D558F2 /* 326.PowerofThree.swift */,
+				944D212227721F3800D558F2 /* 344.ReverseString.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				94043B3F276A2C73004EE672 /* 101.SymmetricTree.swift in Sources */,
 				947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */,
 				944D210D276F7AAC00D558F2 /* 169.MajorityElement.swift in Sources */,
+				944D212327721F3800D558F2 /* 344.ReverseString.swift in Sources */,
 				94E6DC8127623FB80095D52E /* 66.PlusOne.swift in Sources */,
 				94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */,
 				9481F96F276E24BE000EF084 /* 125.ValidPalindrome.swift in Sources */,

@@ -24,5 +24,6 @@ b.next = c
 c.next = d
 d.next = e
 
-print(PowerofThree().isPowerOfThree(1))
+var ca: [Character] = ["h","e","l","l","o"]
+print(ReverseString().reverseString(&ca))
 
