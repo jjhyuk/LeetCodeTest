@@ -20,6 +20,7 @@
 		944D210F2770BC5000D558F2 /* 171.ExcelSheetColumnNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D210E2770BC5000D558F2 /* 171.ExcelSheetColumnNumber.swift */; };
 		944D21132770C73500D558F2 /* 206.ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D21122770C73500D558F2 /* 206.ReverseLinkedList.swift */; };
 		944D21152772052700D558F2 /* 217.ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D21142772052700D558F2 /* 217.ContainsDuplicate.swift */; };
+		944D21172772082B00D558F2 /* 234.PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D21162772082B00D558F2 /* 234.PalindromeLinkedList.swift */; };
 		947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */; };
 		947E2DCA27638F2400A40428 /* 70.ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */; };
 		9481F96F276E24BE000EF084 /* 125.ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */; };
@@ -65,6 +66,7 @@
 		944D210E2770BC5000D558F2 /* 171.ExcelSheetColumnNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 171.ExcelSheetColumnNumber.swift; sourceTree = "<group>"; };
 		944D21122770C73500D558F2 /* 206.ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206.ReverseLinkedList.swift; sourceTree = "<group>"; };
 		944D21142772052700D558F2 /* 217.ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217.ContainsDuplicate.swift; sourceTree = "<group>"; };
+		944D21162772082B00D558F2 /* 234.PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 234.PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.Sqrt(x).swift"; sourceTree = "<group>"; };
 		947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.ClimbingStairs.swift; sourceTree = "<group>"; };
 		9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 125.ValidPalindrome.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				944D210E2770BC5000D558F2 /* 171.ExcelSheetColumnNumber.swift */,
 				944D21122770C73500D558F2 /* 206.ReverseLinkedList.swift */,
 				944D21142772052700D558F2 /* 217.ContainsDuplicate.swift */,
+				944D21162772082B00D558F2 /* 234.PalindromeLinkedList.swift */,
 			);
 			path = "LeetCode-Easy";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				944D2109276F752300D558F2 /* 155.MinStack.swift in Sources */,
 				947E2DCA27638F2400A40428 /* 70.ClimbingStairs.swift in Sources */,
 				94043B3D276A1E2C004EE672 /* 94.BinaryTreeInorderTraversal.swift in Sources */,
+				944D21172772082B00D558F2 /* 234.PalindromeLinkedList.swift in Sources */,
 				94E6DC7D27623BF90095D52E /* 53.MaximumSubarray.swift in Sources */,
 				94043B43276B7247004EE672 /* 118.Pascal'sTriangle.swift in Sources */,
 				94043B41276A343E004EE672 /* 104.MaximumDepthofBinaryTree.swift in Sources */,

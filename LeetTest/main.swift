@@ -16,7 +16,13 @@ import Foundation
 
 let a = ListNode(1)
 let b = ListNode(2)
+//let c = ListNode(3)
+let d = ListNode(2)
+let e = ListNode(1)
 a.next = b
+b.next = d
+//c.next = d
+d.next = e
 
-print(ContainsDuplicate().containsDuplicate([1,2,3,4]))
+print(PalindromeLinkedList().isPalindrome(a))
 
