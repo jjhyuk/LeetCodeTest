@@ -16,13 +16,13 @@ import Foundation
 
 let a = ListNode(1)
 let b = ListNode(2)
-//let c = ListNode(3)
-let d = ListNode(2)
-let e = ListNode(1)
+let c = ListNode(3)
+let d = ListNode(4)
+let e = ListNode(5)
 a.next = b
-b.next = d
-//c.next = d
+b.next = c
+c.next = d
 d.next = e
 
-print(PalindromeLinkedList().isPalindrome(a))
+print(DeleteNodeinaLinkedList().deleteNode(a))
 
