@@ -18,5 +18,5 @@ let a = ListNode(1)
 let b = ListNode(2)
 a.next = b
 
-print(ReverseLinkedList().reverseList(a))
+print(ContainsDuplicate().containsDuplicate([1,2,3,4]))
 
