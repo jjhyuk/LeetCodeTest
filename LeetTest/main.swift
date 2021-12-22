@@ -25,5 +25,5 @@ c.next = d
 d.next = e
 
 var ca: [Character] = ["h","e","l","l","o"]
-print(IntersectionofTwoArraysII().intersect([1,2,2,1], [2,2]))
+print(FirstUniqueCharacterinaString().firstUniqChar("aabb"))
 
