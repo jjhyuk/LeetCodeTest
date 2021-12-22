@@ -25,5 +25,5 @@ c.next = d
 d.next = e
 
 var ca: [Character] = ["h","e","l","l","o"]
-print(FirstUniqueCharacterinaString().firstUniqChar("aabb"))
+print(FizzBuzz().fizzBuzz(15))
 
