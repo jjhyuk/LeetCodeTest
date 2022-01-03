@@ -7,11 +7,11 @@
 
 import Foundation
 
-class DeleteNodeinaLinkedList {
-  func deleteNode(_ node: ListNode?) {
-    if let next = node?.next {
-      node?.val = next.val
-      node?.next = next.next
-    }
-  }
-}
+//class DeleteNodeinaLinkedList {
+//  func deleteNode(_ node: ListNode?) {
+//    if let next = node?.next {
+//      node?.val = next.val
+//      node?.next = next.next
+//    }
+//  }
+//}

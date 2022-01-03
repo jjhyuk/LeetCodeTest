@@ -7,23 +7,18 @@
 
 import Foundation
 //
-//let Rthird = TreeNode(2, nil, nil)
-//let Rsecond = TreeNode(2, Rthird, nil)
-//
-//let Lthird = TreeNode(2, nil, nil)
-//let Lsecond = TreeNode(2, Lthird, nil)
-//let first = TreeNode(1, Lsecond, Rsecond)
+let Rforth = TreeNode(5, nil, nil)
+let Rsecond = TreeNode(2, nil, nil)
+let Rthird = TreeNode(3, Rforth, nil)
+let Rfirst = TreeNode(1, Rthird, Rsecond)
 
-let a = ListNode(1)
-let b = ListNode(2)
-let c = ListNode(3)
-let d = ListNode(4)
-let e = ListNode(5)
-a.next = b
-b.next = c
-c.next = d
-d.next = e
 
-var ca: [Character] = ["h","e","l","l","o"]
-print(FizzBuzz().fizzBuzz(15))
+let Lforth = TreeNode(4, nil, nil)
+let Lfifth = TreeNode(7, nil, nil)
+let Lsecond = TreeNode(1, nil, Lforth)
+let Lthird = TreeNode(3, nil, Lfifth)
+let Lfirst = TreeNode(2, Lsecond, Lthird)
+
+
+print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
 

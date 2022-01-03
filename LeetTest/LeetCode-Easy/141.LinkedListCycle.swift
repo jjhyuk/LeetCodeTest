@@ -17,31 +17,31 @@ import Foundation
 //  }
 //}
 
-
-class LinkedListCycle {
-  func hasCycle(_ head: ListNode?) -> Bool {
-    
-    var result: Array<UnsafeRawPointer> = Array()
-    
-    return recursive(head, result: &result)
-  }
-  
-  func recursive(_ node: ListNode?, result: inout [UnsafeRawPointer]) -> Bool {
-    
-    if let node = node {
-      if node.next != nil {
-        let a = UnsafeRawPointer(Unmanaged.passUnretained(node).toOpaque())
-        if result.contains(a) {
-          return true
-        } else {
-          result.append(UnsafeRawPointer(Unmanaged.passUnretained(node).toOpaque()))
-          return recursive(node.next, result: &result)
-        }
-      } else {
-        return false
-      }
-    } else {
-      return false
-    }
-  }
-}
+//
+//class LinkedListCycle {
+//  func hasCycle(_ head: ListNode?) -> Bool {
+//    
+//    var result: Array<UnsafeRawPointer> = Array()
+//    
+//    return recursive(head, result: &result)
+//  }
+//  
+//  func recursive(_ node: ListNode?, result: inout [UnsafeRawPointer]) -> Bool {
+//    
+//    if let node = node {
+//      if node.next != nil {
+//        let a = UnsafeRawPointer(Unmanaged.passUnretained(node).toOpaque())
+//        if result.contains(a) {
+//          return true
+//        } else {
+//          result.append(UnsafeRawPointer(Unmanaged.passUnretained(node).toOpaque()))
+//          return recursive(node.next, result: &result)
+//        }
+//      } else {
+//        return false
+//      }
+//    } else {
+//      return false
+//    }
+//  }
+//}
