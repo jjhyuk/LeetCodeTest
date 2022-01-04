@@ -20,5 +20,6 @@ let Lthird = TreeNode(3, nil, Lfifth)
 let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 
-print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
+//print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
+print(ProductofArrayExceptSelf().productExceptSelf([-1,1,0,-3,3]))
 
