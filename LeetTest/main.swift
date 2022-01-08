@@ -21,5 +21,5 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 
 //print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
-print(ProductofArrayExceptSelf().productExceptSelf([-1,1,0,-3,3]))
+print(MaximumProductSubarray().maxProduct([2,-5,-2,-4,3]))
 
