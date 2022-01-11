@@ -21,5 +21,5 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 
 //print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
-print(MaximumProductSubarray().maxProduct([2,-5,-2,-4,3]))
+print(CoinChange().coinChange([1,2,5], 3))
 
