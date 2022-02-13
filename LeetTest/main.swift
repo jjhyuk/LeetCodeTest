@@ -21,5 +21,6 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 
 //print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
-print(CoinChange().coinChange([1,2,5], 3))
+//print(CoinChange().coinChange([1,2,5], 3))
 
+print(PascalsTriangleII.getRow(5))
