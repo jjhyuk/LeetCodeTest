@@ -19,8 +19,4 @@ let Lsecond = TreeNode(1, nil, Lforth)
 let Lthird = TreeNode(3, nil, Lfifth)
 let Lfirst = TreeNode(2, Lsecond, Lthird)
 
-
-//print(MergeTwoBinaryTrees().mergeTrees(Rfirst, Lfirst))
-//print(CoinChange().coinChange([1,2,5], 3))
-
-print(PascalsTriangleII.getRow(5))
+print(CoinChange().coinChange([1,3,4,5], 7))
