@@ -19,4 +19,6 @@ let Lsecond = TreeNode(1, nil, Lforth)
 let Lthird = TreeNode(3, nil, Lfifth)
 let Lfirst = TreeNode(2, Lsecond, Lthird)
 
-print(CoinChange().coinChange([1,3,4,5], 7))
+//print(CoinChange().coinChange([1,3,4,5], 7))
+
+print(WordBreak().wordBreak("leetcode", ["leet", "code"]))
