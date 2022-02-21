@@ -21,4 +21,4 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 //print(CoinChange().coinChange([1,3,4,5], 7))
 
-print(WordBreak().wordBreak("leetcode", ["leet", "code"]))
+print(HouseRobber().rob([2,7,9,3,1]))
