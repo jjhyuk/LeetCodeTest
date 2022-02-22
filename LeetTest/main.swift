@@ -21,4 +21,4 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 //print(CoinChange().coinChange([1,3,4,5], 7))
 
-print(DecodeWays().numDecodings("1212"))
+print(UniquePaths().uniquePaths(3, 5))
