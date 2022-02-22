@@ -39,6 +39,7 @@
 		9452FBCE27C277AB00B5DED3 /* 300.LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452FBCD27C277AB00B5DED3 /* 300.LongestIncreasingSubsequence.swift */; };
 		9452FBD027C2870100B5DED3 /* 1143.LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452FBCF27C2870100B5DED3 /* 1143.LongestCommonSubsequence.swift */; };
 		9452FBD227C3CA7B00B5DED3 /* 198.HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452FBD127C3CA7B00B5DED3 /* 198.HouseRobber.swift */; };
+		9452FBD427C518DD00B5DED3 /* 91.DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452FBD327C518DD00B5DED3 /* 91.DecodeWays.swift */; };
 		947E2DC827638B1A00A40428 /* 69.Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */; };
 		947E2DCA27638F2400A40428 /* 70.ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */; };
 		9481F96F276E24BE000EF084 /* 125.ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */; };
@@ -103,6 +104,7 @@
 		9452FBCD27C277AB00B5DED3 /* 300.LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 300.LongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		9452FBCF27C2870100B5DED3 /* 1143.LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1143.LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		9452FBD127C3CA7B00B5DED3 /* 198.HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198.HouseRobber.swift; sourceTree = "<group>"; };
+		9452FBD327C518DD00B5DED3 /* 91.DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 91.DecodeWays.swift; sourceTree = "<group>"; };
 		947E2DC727638B1A00A40428 /* 69.Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.Sqrt(x).swift"; sourceTree = "<group>"; };
 		947E2DC927638F2400A40428 /* 70.ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 70.ClimbingStairs.swift; sourceTree = "<group>"; };
 		9481F96E276E24BE000EF084 /* 125.ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 125.ValidPalindrome.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				9452FBCD27C277AB00B5DED3 /* 300.LongestIncreasingSubsequence.swift */,
 				9452FBCF27C2870100B5DED3 /* 1143.LongestCommonSubsequence.swift */,
 				9452FBD127C3CA7B00B5DED3 /* 198.HouseRobber.swift */,
+				9452FBD327C518DD00B5DED3 /* 91.DecodeWays.swift */,
 			);
 			path = "LeetCode-Medium";
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				944D212927735BBF00D558F2 /* 412.FizzBuzz.swift in Sources */,
 				94E6DC8127623FB80095D52E /* 66.PlusOne.swift in Sources */,
 				94E6DC7B276238DB0095D52E /* 35.SearchInsertPosition.swift in Sources */,
+				9452FBD427C518DD00B5DED3 /* 91.DecodeWays.swift in Sources */,
 				9452FBB227B9428700B5DED3 /* 119.Pascal'sTriangleII.swift in Sources */,
 				9452FBD227C3CA7B00B5DED3 /* 198.HouseRobber.swift in Sources */,
 				9481F96F276E24BE000EF084 /* 125.ValidPalindrome.swift in Sources */,
