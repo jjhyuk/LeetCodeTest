@@ -9,17 +9,24 @@ import Foundation
 
 class LongestCommonSubsequence {
   func longestCommonSubsequence(_ text1: String, _ text2: String) -> Int {
-  
-    return 0
+    //base check
+    if(text1.isEmpty || text2.isEmpty) {
+        return 0
+    }
+
+    var dp = Array(repeating:Array(repeating:0,count:text2.count + 1),count:text1.count + 1)
+    let arr1 = Array(text1)
+    let arr2 = Array(text2)
+    for i in 1...arr1.count {
+        for j in 1...arr2.count {
+            if(arr1[i - 1] == arr2[j - 1]) {
+                dp[i][j] =  dp[i - 1][j - 1] + 1
+            }
+            else {
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+            }
+        }
+    }
+    return dp[arr1.count][arr2.count]
   }
 }
-
-//extension String {
-//
-//  func subString(from: Int, to: Int) -> String {
-//    let startIndex = self.index(self.startIndex, offsetBy: from)
-//    let endIndex = self.index(self.startIndex, offsetBy: to)
-//    print(String(self[startIndex..<endIndex]))
-//    return String(self[startIndex..<endIndex])
-//  }
-//}

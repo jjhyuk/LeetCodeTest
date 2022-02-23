@@ -21,4 +21,4 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 //print(CoinChange().coinChange([1,3,4,5], 7))
 
-print(JumpGame().canJump([1,0,3,4,5,1,23,4]))
+print(LongestCommonSubsequence().longestCommonSubsequence("aqqqqqkqqqqqqqqqqb", "abk"))
