@@ -21,4 +21,4 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 
 //print(CoinChange().coinChange([1,3,4,5], 7))
 
-print(LongestCommonSubsequence().longestCommonSubsequence("aqqqqqkqqqqqqqqqqb", "abk"))
+print(TwoSum().twoSum([2,7,11,15], 9))
