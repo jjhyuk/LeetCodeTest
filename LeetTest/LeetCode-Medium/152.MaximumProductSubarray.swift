@@ -7,24 +7,38 @@
 
 import Foundation
 
-/// 다시 풀어보기
 class MaximumProductSubarray {
   func maxProduct(_ nums: [Int]) -> Int {
-      if nums.isEmpty {
-          return Int.min
+    
+    var solution = Array<Int>()
+    for i in 0 ..< nums.count {
+      if nums[i] == 0 {
+        solution.append(0)
+      } else {
+        var a = nums[i ..< nums.count]
+        solution.append(helper(Array(a)))
       }
-      let first = nums[0]
-      var maxValue = first
-      var preMax = first
-      var preMin = first
-      for i in 1..<nums.count {
-          let value = nums[i]
-          let curMax = max(preMax * value, preMin * value, value)
-          let curMin = min(preMax * value, preMin * value, value)
-          maxValue = max(maxValue, curMax)
-          preMax = curMax
-          preMin = curMin
-      }
-      return maxValue
+    }
+    return solution.max()!
+  }
+  
+  func helper(_ nums: [Int]) -> Int {
+    var copy = nums
+    print(copy)
+    if nums.count == 1 {
+      return nums.first!
+    } else if nums.count == 2 {
+      return max(max(nums[0], nums[1]), nums[0]*nums[1])
+    } else if nums[0] == 0 {
+      copy.removeFirst()
+      return max(maxProduct(copy), nums[0])
+    }
+    
+    let next = nums[0] * nums[1]
+    copy.removeFirst()
+    copy.removeFirst()
+    copy.insert(next, at: 0)
+    
+    return max(maxProduct(copy), nums[0])
   }
 }
