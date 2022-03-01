@@ -31,4 +31,4 @@ let e = RemoveNthNodeFromEndofListListNode(5, d)
 //let f = RemoveNthNodeFromEndofListListNode(1, nil)
 
 
-print(RemoveNthNodeFromEndofList().removeNthFromEnd(a, 1))
+print(LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("ckilbkd"))
