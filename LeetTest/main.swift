@@ -31,4 +31,4 @@ let e = RemoveNthNodeFromEndofListListNode(5, d)
 //let f = RemoveNthNodeFromEndofListListNode(1, nil)
 
 
-print(ThreeSum().threeSum([-2,-2,0,0,2,2]))
+print(GroupAnagrams().groupAnagrams(["a"]))
