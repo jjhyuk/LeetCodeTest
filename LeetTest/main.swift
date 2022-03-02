@@ -22,13 +22,10 @@ let Lfirst = TreeNode(2, Lsecond, Lthird)
 //print(CoinChange().coinChange([1,3,4,5], 7))
 
 
-let a = RemoveNthNodeFromEndofListListNode(1, nil)
-let b = RemoveNthNodeFromEndofListListNode(2, a)
-let c = RemoveNthNodeFromEndofListListNode(3, b)
-let d = RemoveNthNodeFromEndofListListNode(4, c)
-let e = RemoveNthNodeFromEndofListListNode(5, d)
-
-//let f = RemoveNthNodeFromEndofListListNode(1, nil)
+let a = SwapNodesinPairsListNode(4, nil)
+let b = SwapNodesinPairsListNode(3, a)
+let c = SwapNodesinPairsListNode(2, b)
+let d = SwapNodesinPairsListNode(1, c)
 
 
-print(LetterCombinationsofaPhoneNumber().letterCombinations("23"))
+print(SwapNodesinPairs().swapPairs(d))
