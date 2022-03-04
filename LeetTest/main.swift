@@ -27,5 +27,5 @@ let b = SwapNodesinPairsListNode(3, a)
 let c = SwapNodesinPairsListNode(2, b)
 let d = SwapNodesinPairsListNode(1, c)
 
-
-print(SwapNodesinPairs().swapPairs(d))
+let grid = [[1,2,3,5,1,34,123],[1,13,4,1235,123,4,1234]]
+print(MinimumPathSum().minPathSum(grid))
