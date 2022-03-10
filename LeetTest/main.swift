@@ -27,5 +27,6 @@ let b = SwapNodesinPairsListNode(3, a)
 let c = SwapNodesinPairsListNode(2, b)
 let d = SwapNodesinPairsListNode(1, c)
 
-let grid = [[1,2,3,5,1,34,123],[1,13,4,1235,123,4,1234]]
-print(MinimumPathSum().minPathSum(grid))
+let array = [1,1,1,2,2,3]
+let k = 2
+print(TopKFrequentElements().topKFrequent(array, 2))
