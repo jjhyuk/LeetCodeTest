@@ -27,6 +27,5 @@ let b = SwapNodesinPairsListNode(3, a)
 let c = SwapNodesinPairsListNode(2, b)
 let d = SwapNodesinPairsListNode(1, c)
 
-let array = [1,1,1,2,2,3]
-let k = 2
-print(TopKFrequentElements().topKFrequent(array, 2))
+let array = [1,2,3]
+print(Permutations().permute(array))
