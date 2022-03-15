@@ -27,5 +27,6 @@ let b = SwapNodesinPairsListNode(3, a)
 let c = SwapNodesinPairsListNode(2, b)
 let d = SwapNodesinPairsListNode(1, c)
 
-let array = [1,2,3]
-print(Permutations().permute(array))
+let array = [5,7,7,8,8,10]
+let target = 8
+print(FindFirstandLastPositionofElementinSortedArray().searchRange(array, target))
